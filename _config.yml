@@ -33,7 +33,11 @@ highlightjs_theme: "monokai-sublime"
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
   enabled: all
-  layout: 'archive'
+  layouts:
+    year: year-archive
+   month: month-archive
+   day: day-archive
+   tag: tag-archive-layout
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
@@ -117,6 +121,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+#    os_repo: "https://github.com/bencentra/centrarium.com"
+#    os_rcs_type: "git"
+#    os_src: "git@github.com:bencentra/centrarium.com.git"
