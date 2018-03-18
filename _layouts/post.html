@@ -33,18 +33,15 @@ layout: default
   {{ content }}
 </article>
 
-{% if site.jekyll-archives %}
-{% if page.tags.size > 0 %}
+
 <section class="tags">
-  <strong>Tags:</strong> {% for tag in page.tags %}<a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %},&nbsp;{% endif %}{% endfor %}
+	{% if site.jekyll-archives %}
+	{% if page.tags.size > 0 %}
+	  <strong>Tags:</strong> {% for tag in page.tags %}<a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last == false %},&nbsp;{% endif %}{% endfor %}
+	{% endif %}
+	{% endif %}
 </section>
-{% endif %}
-{% endif %}
-<!--
-<section class="rss">
-  <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
-</section>
--->
+
 <section class="share">
   <strong>Share: </strong>
   {% for social in site.social %}
