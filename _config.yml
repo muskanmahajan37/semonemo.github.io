@@ -76,6 +76,14 @@ social:
 #    url: https://twitter.com/TheBenCentra
     desc: Follow me on Twitter
     share: true
+    
+  - name: Google+
+    icon: google-plus
+    username:
+    url:
+    desc: Add me to your Circles
+    share: true
+
 
   - name: Facebook
     icon: facebook
