@@ -269,8 +269,19 @@ pre code.hljs {
 		.post-content {
 			padding: 1em 0;
 		}
-		.tags {
+		.aaa{
+				.tags {
 			font-size: 0.9em;
+			}
+				.share {
+			font-weight: bold;
+			margin: 0 0 1em 0;
+			@include span-columns(12);
+			@include media ($tablet) {
+				@include span-columns(6);
+				margin: 1em 0;
+				text-align: left;
+			}
 		}
 		.rss {
 			margin: 1em 0 0 0;
@@ -280,6 +291,7 @@ pre code.hljs {
 				@include span-columns(6);
 			}
 		}
+		/*
 		.share {
 			font-weight: bold;
 			margin: 0 0 1em 0;
@@ -289,7 +301,7 @@ pre code.hljs {
 				margin: 1em 0;
 				text-align: left;
 			}
-/*			a {
+		a {
 				width: 1em;
 				padding: 0 0.25em;
 				text-decoration: none;
