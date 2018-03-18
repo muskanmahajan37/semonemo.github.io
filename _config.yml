@@ -7,6 +7,13 @@ gems:
 
 exclude:
   - "/vendor/"
+  - README.md
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
 
 # Site settings
 title: semonemo
