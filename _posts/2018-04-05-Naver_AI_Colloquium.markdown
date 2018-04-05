@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dummy Post"
+title:  "Naver_AI_Colloquium"
 date:   2018-04-05 10:48:59
 author: semonemo
 categories: Dummy
