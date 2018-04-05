@@ -58,9 +58,6 @@ descriptions:
   - cat: test
     desc: "test."    
 
-  - cat: review
-  	desc: "review"
-
 # Social icons and sharing options
 #
 # Social settings are used in two places:
